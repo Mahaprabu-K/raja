@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Form</title>
+</head>
+<body>
+
+    <h2>User Form</h2>
+
+    <input type="text" id="name" placeholder="Enter Name">
+    <br><br>
+
+    <input type="number" id="age" placeholder="Enter Age">
+    <br><br>
+
+    <button onclick="saveData()">Save</button>
+
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+
+</body>
+</html>
